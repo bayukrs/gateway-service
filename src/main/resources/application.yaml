@@ -4,7 +4,7 @@ spring:
   profiles:
     active: development
   config:
-    import: optional:configserver:http://admin:Password1@localhost:8761
+    import: optional:configserver:http://admin:Password1@localhost:8761/config
 eureka:
   instance:
     hostname: localhost
